@@ -1,4 +1,5 @@
 # PersEmoN: A Deep Network for Joint Analysis of Apparent Personality, Emotion and Their Relationship
+
 Training prototxt for the paper ``PersEmoN: A Deep Network for Joint Analysis of Apparent Personality, Emotion and Their Relationship" in IEEE Transactions on Affective Computing.
 
 ![image](https://github.com/ZhangLeUestc/PersEmoN/blob/master/img/system.jpg)
@@ -15,7 +16,7 @@ https://github.com/yjxiong/temporal-segment-networks
 
 
 
-As for the ``DomainConfusionInnerProduct" layer, we get the code from the following paper:
+For the ``DomainConfusionInnerProduct" layer, we get the code from the following paper:
 
 Tzeng, Eric, et al. "Simultaneous deep transfer across domains and tasks." Proceedings of the IEEE International Conference on Computer Vision. 2015.
 
