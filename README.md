@@ -21,7 +21,7 @@ Tzeng, Eric, et al. "Simultaneous deep transfer across domains and tasks." Proce
 
 As the original code for the above paper is not well-maintained, we provide the source code of ``DomainConfusionInnerProduct" layer in this repository.
 
-Please cite the related work if you use this repository in your research work:
+Please cite the following paper if you use this repository in your research work:
 
 @article{zhang2019persemon,
   title={PersEmoN: A deep network for joint analysis of apparent personality, emotion and their relationship},
