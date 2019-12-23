@@ -1,4 +1,4 @@
-# PersEmoN
+# PersEmoN: A Deep Network for Joint Analysis of Apparent Personality, Emotion and Their Relationship
 Training prototxt for the paper ``PersEmoN: A Deep Network for Joint Analysis of Apparent Personality, Emotion and Their Relationship".
 
 We use the MTCNN to first detect and align the faces. The source coude of MTCNN could be found at:
