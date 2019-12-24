@@ -28,7 +28,7 @@ As the original code for the above paper is not well-maintained, we provide the 
 Please cite the following papers if you use this repository in your research work:
 ```sh
 @article{zhang2019persemon,
-  title={PersEmoN: A Aeep Network for Joint Analysis of Apparent Personality, Emotion and Their Relationship},
+  title={PersEmoN: A Deep Network for Joint Analysis of Apparent Personality, Emotion and Their Relationship},
   author={Zhang, Le and Peng, Songyou and Winkler, Stefan},
   journal={IEEE Transactions on Affective Computing},
   year={2019},
@@ -38,8 +38,8 @@ Please cite the following papers if you use this repository in your research wor
 and
 ```sh
 @inproceedings{peng2018mm,
- author =  {Peng, Songyou and Zhang, Le and Winkler, Stefan},
  title = {Give Me One Portrait Image, I Will Tell You Your Emotion and Personality},
+ author =  {Peng, Songyou and Zhang, Le and Winkler, Stefan},
  booktitle = {ACM International Conference on Multimedia (ACM MM)},
  year = {2018},
 }
