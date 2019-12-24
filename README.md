@@ -1,35 +1,51 @@
 # PersEmoN: A Deep Network for Joint Analysis of Apparent Personality, Emotion and Their Relationship
 
-Training prototxt for the paper ``PersEmoN: A Deep Network for Joint Analysis of Apparent Personality, Emotion and Their Relationship" in IEEE Transactions on Affective Computing.
+This repository contains the training prototxt for our papers: 
+
+[PersEmoN: A Deep Network for Joint Analysis of Apparent Personality, Emotion and Their Relationship.](https://arxiv.org/abs/1811.08657)  
+[*Le Zhang*](https://zhangleuestc.github.io/), [*Songyou Peng*](https://pengsongyou.github.io/), [*Stefan Winkler*](https://stefan.winkler.site/)  
+IEEE Transactions on Affective Computing, 2019.
+
+and 
+
+[Give Me One Portrait Image, I Will Tell You Your Emotion and Personality.](https://pengsongyou.github.io/files/mm18_personality_paper.pdf)  
+[*Songyou Peng*](https://pengsongyou.github.io/), [*Le Zhang*](https://zhangleuestc.github.io/), [*Stefan Winkler*](https://stefan.winkler.site/), [*Marianne Winslett*](http://winslett.cs.illinois.edu/)  
+ACM Multimedia, 2019, Demo.
 
 ![image](https://github.com/ZhangLeUestc/PersEmoN/blob/master/img/system.jpg)
 
-We use the MTCNN to first detect and align the faces. The source coude of MTCNN could be found at:
+## Requirements
+- [MTCNN](https://github.com/kpzhang93/MTCNN_face_detection_alignment)  
+We use the MTCNN to first detect and align the faces. We used two customized layers which may not be included in the official caffe.
+- [TSN](https://github.com/yjxiong/temporal-segment-networks)  
+Used in Videodata layer.
 
-https://github.com/kpzhang93/MTCNN_face_detection_alignment
-
-We used two customized layers which may not be included in the official caffe.
-
-Please get the source code of Videodata layer from the TSN Repository:
-
-https://github.com/yjxiong/temporal-segment-networks
-
-
-
-For the ``DomainConfusionInnerProduct" layer, we get the code from the following paper:
-
-Tzeng, Eric, et al. "Simultaneous deep transfer across domains and tasks." Proceedings of the IEEE International Conference on Computer Vision. 2015.
+Also, For the ``DomainConfusionInnerProduct" layer, we get the code from the following paper: ["Simultaneous Deep Transfer Across Domains and Tasks."](https://people.eecs.berkeley.edu/~jhoffman/papers/Tzeng_ICCV2015.pdf), ICCV, 2015. 
 
 As the original code for the above paper is not well-maintained, we provide the source code of ``DomainConfusionInnerProduct" layer in this repository.
 
-Please cite the following paper if you use this repository in your research work:
-
+## Citations
+Please cite the following papers if you use this repository in your research work:
+```sh
 @article{zhang2019persemon,
-  title={PersEmoN: A deep network for joint analysis of apparent personality, emotion and their relationship},
+  title={PersEmoN: A Aeep Network for Joint Analysis of Apparent Personality, Emotion and Their Relationship},
   author={Zhang, Le and Peng, Songyou and Winkler, Stefan},
   journal={IEEE Transactions on Affective Computing},
   year={2019},
   publisher={IEEE}
 }
+```
+and
+```sh
+@inproceedings{peng2018mm,
+ author =  {Peng, Songyou and Zhang, Le and Winkler, Stefan},
+ title = {Give Me One Portrait Image, I Will Tell You Your Emotion and Personality},
+ booktitle = {ACM International Conference on Multimedia (ACM MM)},
+ year = {2018},
+}
+```
+
+Contact **Le Zhang** [:envelope:](mailto:zhangleuestc@gmail.com) for questions, comments and reporting bugs.
+
 
 
