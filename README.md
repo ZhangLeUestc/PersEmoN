@@ -10,7 +10,7 @@ and
 
 [Give Me One Portrait Image, I Will Tell You Your Emotion and Personality.](https://pengsongyou.github.io/files/mm18_personality_paper.pdf)  
 [*Songyou Peng*](https://pengsongyou.github.io/), [*Le Zhang*](https://zhangleuestc.github.io/), [*Stefan Winkler*](https://stefan.winkler.site/), [*Marianne Winslett*](http://winslett.cs.illinois.edu/)  
-ACM Multimedia, 2019, Demo.
+ACM Multimedia, 2018, Demo.
 
 ![image](https://github.com/ZhangLeUestc/PersEmoN/blob/master/img/system.jpg)
 
@@ -20,9 +20,9 @@ We use the MTCNN to first detect and align the faces. We used two customized lay
 - [TSN](https://github.com/yjxiong/temporal-segment-networks)  
 Used in Videodata layer.
 
-Also, For the ``DomainConfusionInnerProduct" layer, we get the code from the following paper: ["Simultaneous Deep Transfer Across Domains and Tasks."](https://people.eecs.berkeley.edu/~jhoffman/papers/Tzeng_ICCV2015.pdf), ICCV, 2015. 
+Also, For the "DomainConfusionInnerProduct" layer, we get the code from the following paper: ["Simultaneous Deep Transfer Across Domains and Tasks."](https://people.eecs.berkeley.edu/~jhoffman/papers/Tzeng_ICCV2015.pdf), ICCV, 2015. 
 
-As the original code for the above paper is not well-maintained, we provide the source code of ``DomainConfusionInnerProduct" layer in this repository.
+As the original code for the above paper is not well-maintained, we provide the source code of "DomainConfusionInnerProduct" layer in this repository.
 
 ## Citations
 Please cite the following papers if you use this repository in your research work:
